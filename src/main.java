@@ -12,5 +12,9 @@ public class main {
 		}
 		
 	}
+	
+	public void saludar(String name) {
+		System.out.println("Hola " + name);
+	}
 
 }
