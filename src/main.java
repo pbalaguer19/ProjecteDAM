@@ -7,7 +7,7 @@ public class main {
 		
 		n++;
 		
-		if(n % 2 == 0 ) {
+		if(esParell(n)) {
 			System.out.print("Número: " + n);	
 		}
 		
@@ -15,6 +15,10 @@ public class main {
 	
 	public void saludar(String name) {
 		System.out.println("Hola " + name);
+	}
+	
+	public static boolean esParell(int n) {
+		return n % 2 == 0;
 	}
 
 }
